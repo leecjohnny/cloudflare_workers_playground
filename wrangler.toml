@@ -1,0 +1,11 @@
+name = "check_user_rdt"
+workers_dev = true
+main = "./index.js"
+compatibility_date = "2022-10-28"
+
+kv_namespaces = [
+  { binding = "check_user_rdt", id = "64698d6a76a14037a653954d085f40ea", preview_id = "5c8bec9c7e1b4379b18a28b78c0b4ff3" }
+]
+
+[triggers]
+crons = []
